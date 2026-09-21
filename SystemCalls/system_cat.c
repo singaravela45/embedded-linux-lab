@@ -3,6 +3,7 @@
 #include <fcntl.h>
 #include <unistd.h>
 #include <string.h>
+#include<stdio.h>
 
 int main(int argc, char *argv[])
 {
@@ -25,6 +26,5 @@ int main(int argc, char *argv[])
 		write(1, buf, cnt);
 	}
 	close(fd);
-
 	return 0;
 }
