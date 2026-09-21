@@ -8,7 +8,6 @@ int main() {
 	struct tm* ptm;
 	char time_string[40];
 	long milliseconds;
-
 	//TODO 1: Populate the timeval structure with gettimeofday
 	//TODO 2: Use localtime to get struct tm
 	//TODO 3: Use strftime to get the time in desired format

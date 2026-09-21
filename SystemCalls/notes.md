@@ -5,3 +5,9 @@ FlagDescription-Example
 -o file.txtRedirects output to a file instead of stderrstrace -o trace.log ./app  
 -e trace=<calls>Filters by specific calls (e.g., network, file, process)strace -e trace=network curl example.com-fTraces child processes created via fork or clonestrace
 -t / -ttPrepends timestamps (or microsecond timestamps)strace -tt ls  
+
+to execute a file : first compile it using gcc -> gcc file_name.c -o file_name
+then first change the file mode to executable with chmod +x file_name
+and then execute it with ./file_name
+
+
